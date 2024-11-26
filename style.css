@@ -67,9 +67,14 @@ body {
 .right{
     margin: 16px 0;
     position: relative;
-    
+    width: 75vw;
 }
 
+.left {
+    width: 25vw;
+    padding:10px;
+  }
+  
 
 
 .header {
@@ -324,4 +329,28 @@ object-fit and width:100% or required. */
     font-size: 15px;
     width: 64px;
     padding: 0 12px 0 0;
+}
+
+
+/* REsponsiveness */
+@media (max-width: 1400px) {
+  .left{
+    background-color: red;
+    position: absolute;
+    left: -100%;
+    transition: all .3s;
+    z-index: 1;
+    width: 233px;
+
+
+  }
+
+  .right{
+      width: 100vw;
+  }
+
+  .playbar {
+      width: 95vw;
+  }
+
 }
