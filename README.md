@@ -1,2 +1,3 @@
 # Spootify-Clone-Project
 It is a JavaScript Implemented Project ,the Spotify Clone..is a Media Player Website.....
+On Progress...Fixing some issues after Deployement.
