@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <title>Spootify Clone</title>
+</head>
+
+<body>
+
+    <div class="container flex">
+        <!-- Left  Box.. -->
+        <div class="left border bg-black">
+            <!-- Home Box -->
+            <div class="home bg-grey rounded m-1 p-1">
+                <img class="invert" src="logo.svg" alt="logo">
+
+                <ul>
+                    <li><img class="invert icons" src="homelogo.svg" alt="homelogo">Home</li>
+                    <li><img class="invert icons" src="search.svg" alt="search-icon">Search</li>
+                </ul>
+            </div>
+
+            <div class="library bg-grey rounded m-1 p-1 ">
+                <div class="heading flex ">
+                    <img class="invert icons" src="librarylogo.svg" alt="library_logo">
+                    Your Library
+                </div>
+                <div class="songlist">
+                    <ul>
+                       
+
+                    </ul>
+                </div>
+
+                <div class="footer">
+
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/" id=""><span>Legal</span></a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/safetyandprivacy/" id=""><span>Safety &amp; Privacy
+                                Center</span></a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/" id=""><span>Privacy
+                                Policy</span></a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/cookies-policy/" id=""><span>Cookies</span></a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3" id=""><span>About
+                                Ads</span></a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/accessibility/" id=""><span>Accessibility</span></a>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+        <!-- Now let's progress from the right box segment -->
+
+
+
+
+        <div class="right bg-grey rounded">
+            <div class="header flex">
+                <div class="nav invert">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000"
+                        fill="none">
+                        <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000"
+                        fill="none">
+                        <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+
+                </div>
+
+                <div class="buttons">
+                    <button class="signupbtn">Sign Up</button>
+                    <button class="loginbtn">Log In</button>
+
+                </div>
+
+            </div>
+
+
+            <!-- This writing Pattern of spotifyPlaylist is called camel case -->
+            <div class="spotifyPlaylist">
+                <h1>
+                    Spootify Playlist
+                </h1>
+                <div class="cardContainer flex">
+
+                    <div class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 24 24" width="16"
+                                height="16">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f00000002325a73f69fa4fef821080f25" alt="song1">
+                        <h2>lofi sleep</h2>
+                        <p>
+                            Instrumental beats for a restful night's sleep.
+                        </p>
+                    </div>
+                    <div class="card">
+
+                        <img src="https://i.scdn.co/image/ab67706f000000025efc7c6db6aa12968d5c00ca" alt="song2">
+                        <h2>Dreamy Forest Music</h2>
+                        <p>
+                            Wander into the magical mix of music, water, birds, and calmness.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67706f000000022577ecdc8baf0bf2d76df05b" alt="song2">
+                        <h2>Floating Through Space</h2>
+                        <p>
+                            Ambient drone to make you feel weightless.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle">
+                        
+                        </div>
+
+                    </div>
+                    <div class="abovebar">
+                        <div class="songinfo">
+
+                        </div>
+                        <div class="songbuttons">
+                            <img id="previous" src="prevsong.svg" alt="prevbtn">
+                            <img id="play" src="play.svg" alt="playbtn">
+                           <img id="next" src="nextsong.svg" alt="nextbtn">
+    
+                        </div>
+                        <div class="songtime">
+
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
